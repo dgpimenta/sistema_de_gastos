@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Sistema de gastos mensais</title>
+  </head>
+  <body
+    style="
+      font-family: 'Roboto', sans-serif;
+      background-color: black;
+      text-align: center;
+    "
+  >
+    <h1 style="color: green; padding: 2rem">Exercícios - JavaScript</h1>
+    <h2 style="color: indigo; margin-bottom: 5rem; padding: 1rem">
+      Sistema de gastos
+    </h2>
+
+    <form
+      action=""
+      autocomplete="off"
+      id="incomes"
+      style="margin-bottom: 1rem; padding-inline: 0.15rem"
+    >
+      <label for="" style="color: grey; font-size: 1rem; margin-right: 0.2rem"
+        >Receitas:
+      </label>
+      <input
+        type="number"
+        step=".01"
+        name="sendIncomes"
+        style="
+          font-weight: bold;
+          padding: 0.4rem;
+          border-radius: 0.3rem;
+          width: 4rem;
+        "
+      />
+      <button
+        style="
+          color: white;
+          background: indigo;
+          border-radius: 0.3rem;
+          padding: 0.4rem;
+          cursor: pointer;
+          margin-left: 0.4rem;
+        "
+      >
+        Enviar
+      </button>
+    </form>
+
+    <form
+      action=""
+      autocomplete="off"
+      id="expenses"
+      style="margin-bottom: 3rem; padding-inline: 0.15rem"
+    >
+      <label for="" style="color: grey; font-size: 1rem; margin-right: 0.2rem"
+        >Despesas:
+      </label>
+      <input
+        type="number"
+        step=".01"
+        name="sendExpenses"
+        style="
+          font-weight: bold;
+          padding: 0.4rem;
+          border-radius: 0.3rem;
+          width: 4rem;
+        "
+      />
+      <button
+        style="
+          color: white;
+          background: indigo;
+          border-radius: 0.3rem;
+          padding: 0.4rem;
+          cursor: pointer;
+          margin-left: 0.4rem;
+        "
+      >
+        Enviar
+      </button>
+    </form>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
